@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+header{
+background-color: black;
+color: white;
+text-align: center;
+padding-bottom: 0.5px;
+ 
+}
+.dash{
+    display: flex;
+    gap: 15px;
+    list-style: ;
+    text-align: center;
+    justify-content: center;
+    border-block: 1px solid white;
+    padding-block: 7px;
+    position: relative;
+}
+
+.dash li {
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+/* custom bullet */
+.paragraph ul::before {
+  content: "•";
+  color: rgb(233, 232, 230);
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.links {
+    border-block: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    color: white;
+   padding-block: 7px;
+background-color: rgb(19, 18, 18);
+}
+
+
+
+.first{
+  padding-block: 50px;
+  font-weight: bold;
+  text-align: center;
+  gap: 50rem;
+  color: white;
+  background-color: black;
+}
+button{
+  background-color: yellow;
+  border: solid yellow;
+  border-radius: 5px ;
+  padding-block: 8px;
+  padding-inline: 40px;
+}
+.first p{
+  padding-block: 10px;
+}
+button:hover{
+  background-color: rgb(231, 231, 116);
+}
+
+.About-us{
+  padding-block: 50px;
+  text-align: center;
+  gap: 50rem;
+}
+
+.Our-services{
+padding-block: 50px;
+  text-align: center;
+      background-color: rgb(239, 230, 230);
+
+  position: relative;
+}
+.Our-services ul::before {
+  content: "•";
+  color: rgb(15, 15, 14);
+  font-size: 22px;
+  margin-right: 10px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.gallery{
+  padding-block: 50px;
+  text-align: center;
+}
+.contact{
+  padding-bottom: 50px;
+  text-align: center;
+    background-color: rgb(239, 230, 230);
+}
+footer{
+  color: white;
+  background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    padding-block: 9px;
+}
+a:hover{
+  color: blue;
+}
